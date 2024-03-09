@@ -1,4 +1,6 @@
-
+html{
+	/*overflow-y:auto;*/
+}
 /* nav */
 nav{
 	width:100%;
