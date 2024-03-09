@@ -1,3 +1,6 @@
+html{
+	overflow:hidden !important;
+}
 /* nav */
 nav{
 	width:100%;
