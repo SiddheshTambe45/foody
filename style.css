@@ -1,5 +1,6 @@
 html{
 	overflow-y:auto;
+	overflow-x:hidden;
 }
 /* nav */
 nav{
@@ -12,6 +13,9 @@ nav a{
 	text-align:center;
 }
 /*header*/
+
+
+
 .container{
 	position:relative;
 }
@@ -135,7 +139,7 @@ header h2{
 	}
 	.header-img-1{
 	width:250px;
-	height:250px;
+	height:180px;
 	margin:auto;
 	//position:absolute;
 	//right:5%;
@@ -143,7 +147,7 @@ header h2{
 	}
 	.header-img-2{
 		width:200px;
-		height:200px;
+		height:180px;
 		margin:auto;
 		//position:absolute;
 		//left:5%;
@@ -434,7 +438,7 @@ header h2{
     z-index: -1;
 }
 */
-@media screen and (max-width:768px) {
+@media screen and (max-width:576px) {
 	.info-1{
 		order:2;
 	}
